@@ -1,0 +1,62 @@
+/* Attribution */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+/* Inter Regular, Bold, and ExtraBold */
+
+/* Root */
+
+:root {
+    /*        */
+    /* colors */
+    /*        */
+    --p-soft-orange: hsl(35, 77%, 62%);
+    --p-soft-red: hsl(5, 85%, 63%);
+    
+    --n-off-white: hsl(36, 100%, 99%);
+    --n-grey-blue: hsl(233, 8%, 79%);
+    --n-dark-grey-blue: hsl(236, 13%, 42%);
+    --n-vdark-grey-blue: hsl(240, 100%, 5%);
+
+    /*                  */
+    /* Media Breakpoints */
+    /*                  */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    /*             */
+    /* Font Sizes */
+    /*            */
+    --body-copy: 15px;
+    --regular: 400;
+    --bold: 700;
+    --extrabold: 800;
+    --inter: 'Inter', sans-serif;
+}
+
+/* variables */
+
+h1 {
+    font-family: var(--inter);
+}
+
+.header {
+
+}
+
+@media (pref)
+
+/* Master */
+
+html, body {
+    margin: 0;
+}
+
+/* mediaq */
+
+@media (min-width:23em) {
+
+}
